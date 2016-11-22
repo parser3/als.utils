@@ -1,0 +1,41 @@
+{
+    "name": "als/utils",
+    "type": "library",
+    "description": "Utils Component.",
+    "keywords": ["als", "utils", "lib", "doc", "node", "attrs", "cached", "convert", "logger"],
+    "homepage": "https://github.com/parser3/als.utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Petrushin",
+            "email": "misha@design.ru",
+            "homepage": "http://misha.design.ru",
+            "role": "Developer"
+        },
+        {
+            "name": "Leonid Knyazev",
+            "email": "leonid@knyazev.me",
+            "homepage": "https://knyazev.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/parser3/als.utils/issues"
+    },
+    "require": {
+        "als/dtf": "^1.0",
+        "als/erusage": "^1.0",
+        "als/filesystem": "^1.0"
+    },
+    "require-dev": {
+        "parser/autoload": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Als\\Utils\\": "src/"
+        }
+    },
+    "repositories": [
+        { "type": "composer", "url": "https://pkg.parser.ru" }
+    ]
+}
