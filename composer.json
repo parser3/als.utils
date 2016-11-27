@@ -35,6 +35,11 @@
             "Als\\Utils\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Als\\Utils\\Test\\": "test/"
+        }
+    },
     "repositories": [
         { "type": "composer", "url": "https://pkg.parser.ru" }
     ]
