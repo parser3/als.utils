@@ -148,7 +148,7 @@ $self.hData.[$sName][$uValue]
 @_parse[uData][result;xAttr;sDummy;sName;uValue]
 $result[^hash::create[]]
 ^if(def $uData){
-	^if($uData is "Attrs"){
+	^if($uData is "Als/Utils/Attrs"){
 		$result[^uData.hash[]]
 	}{
 		^switch[$uData.CLASS_NAME]{
